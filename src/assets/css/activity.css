@@ -1,0 +1,284 @@
+.bg-w {
+  background: #fff;
+}
+.c-w {
+  color: #fff;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: top;
+}
+.va-m {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.c-r {
+  color: red;
+}
+.main {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.23rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.logo {
+  width: 2.453rem;
+  height: 2.453rem;
+  line-height: 2.453rem;
+  border: 6px solid #F1F1F1;
+  margin: 0 auto;
+}
+.main h3 {
+  color: #98A862;
+  font-size: 0.18rem;
+  margin-top: 0.346rem;
+  margin-bottom: 0.346rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 0.4rem;
+  background: #F2F2F2;
+  font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+button {
+  outline: 0 ;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+a {
+  list-style: none;
+}
+#header .swiper-slide {
+  padding: 0 20px;
+  width: auto;
+}
+#banner {
+  width: 10rem;
+  height: 5.625rem;
+  /*margin-top: 43px;*/
+  position: relative;
+}
+#banner .swiper-slide {
+  position: relative;
+  text-align: center;
+}
+#banner img {
+  max-width: 100%;
+  width: 10rem;
+  height: 5.625rem;
+}
+#banner .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 21px;
+  width: 66px;
+  text-align: center;
+  right: 40%;
+}
+
+body {
+  background: #f5e17e;
+}
+.newsMain {
+  background: #fffce4;
+}
+.newsMain .nav {
+  border-bottom: 1px solid #EFEFEF;
+}
+.newsMain .news {
+  text-align: center;
+}
+.newsMain .content {
+  margin-top: 0rem;
+}
+.newsMain .activities {
+  padding-bottom: 2rem;
+  width: 100%;
+ 
+}
+.newsMain .activities .activePic {
+  text-align: right;
+}
+.newsMain .activities .activePic img {
+  display: inline-block;
+  width: 4.5rem;
+  height: 3.375rem;
+  border-radius: 0.2rem;
+  position: relative;
+}
+.newsMain .activities .activePic .listIcon {
+  position: absolute;
+  top: 0rem;
+}
+.newsMain .activities .activePic .listIcon img {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0;
+}
+.newsMain .activities .activePic .listIcon .key{
+  width: 0.48rem;
+  height: 0.525rem;
+  border-radius: 0;
+  position: relative;
+  left: 2.7rem;
+  top: -0.55rem;
+}
+.newsMain .activities .activeDetail {
+  padding-left: 0.2rem;
+  float: left;
+  width: 50%;
+  position: relative;
+  /*height: 4.959999999999999rem;*/
+}
+.newsMain .activities .activeDetail .activePic {
+  text-align: left;
+}
+.newsMain .activities .activeDetail .txt1 {
+  text-align: left;
+  float: left;
+}
+.newsMain .activities .activeDetail1 {
+  float: right;
+  padding-right: 0.2rem;
+  width: 50%;
+  position: relative;
+  /*height: 4.959999999999999rem;*/
+}
+.newsMain .activities .activeDetail1 .activePic {
+  text-align: left;
+}
+.newsMain .activities .activeDetail1 .txt1 {
+  text-align: left;
+  float: left;
+}
+.newsMain .activities .txt1 h4 {
+  font-weight: normal;
+  font-size: 0.4rem;
+  /*overflow: hidden;*/
+  /*text-overflow: ellipsis;*/
+  /*display: -webkit-box;*/
+  /*-webkit-box-orient: vertical;*/
+  /*-webkit-line-clamp: 1;*/
+  color: #655f5f;
+  width: 4.5rem;
+  height: 0.533333333rem;
+
+}
+.newsMain .activities .txt1 h4 i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #D8021C;
+  border-radius: 50%;
+  margin-left: 0.2rem;
+}
+.newsMain .activities .actIcon {
+  width: 0.3rem;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+}
+.newsMain .activities .actTitle {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  clear: both;
+}
+.newsMain .activities .actTitle .right1Arrows {
+  width: 0.23rem;
+  margin-right: 0.3rem;
+}
+.newsMain .activities .txt1 {
+  width: 4.5rem;
+  height: 1.6rem;
+  bottom: 1.4rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.2rem;
+}
+.newsMain .activities .txt1 p {
+  font-size: 0.3rem;
+  color: #999;
+  width: 4.5rem;
+  height: 0.4269rem;
+}
+
+.loading1,
+.loading2,
+.loading3,
+.loading4,
+.loading5,
+.loading6,
+.loading7,
+.loading8,
+.loading9 {
+  clear: both;
+  text-align: center;
+}
+.data1,
+.data2,
+.data3,
+.data4,
+.data5,
+.data6,
+.data7,
+.data8,
+.data9 {
+  display: none;
+  text-align: center;
+  clear: both;
+}

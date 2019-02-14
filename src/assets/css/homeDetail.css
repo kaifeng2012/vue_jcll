@@ -1,0 +1,385 @@
+.bg-w {
+  background: #fff;
+}
+.c-w {
+  color: #fff;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: top;
+}
+.va-m {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.c-r {
+  color: red;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  font-size: 0.4rem;
+  overflow-x: hidden;
+  background: #F2F2F2;
+  font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+button {
+  outline: 0 ;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+#header .swiper-slide {
+  padding: 0 20px;
+  width: auto;
+}
+#banner {
+  width: 10rem;
+  height: 5.625rem;
+  /*margin-top: 43px;*/
+  position: relative;
+}
+#banner .swiper-slide {
+  position: relative;
+  text-align: center;
+}
+#banner img {
+  max-width: 100%;
+  width: 10rem;
+  height: 5.625rem;
+}
+#banner .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 21px;
+  width: 66px;
+  text-align: center;
+  right: 40%;
+  border-radius: 50%;
+}
+.title {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+.back {
+  position: fixed;
+  top: 0.3rem;
+  left: 0.3rem;
+  z-index: 100;
+  width: 10%;
+}
+#banner img {
+  max-width: 100%;
+  width: 10rem;
+  height: 7.5rem;
+}
+section {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  margin-top: 0.15rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+section .info {
+  background: #FFFFFF;
+}
+section .streetInfo {
+  margin: 0 auto;
+}
+section .streetInfo .titleName {
+  /*margin-top: 0.5rem;*/
+ 
+}
+section .streetInfo .titleName h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+section .streetInfo li {
+  border-bottom: 1px solid #F2F2F2;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+ 
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+section .streetInfo .address img {
+  height: 0.7rem;
+  width: 0.7rem;
+  vertical-align: middle;
+  margin-right: 0.15rem;
+  border-radius: 50%;
+}
+section .streetInfo .address span {
+  color: #333333;
+  font-size: 0.42rem;
+  vertical-align: middle;
+}
+section .streetInfo .contact img {
+  display: inline-block;
+  height: 0.7rem;
+  vertical-align: middle;
+  margin-right: 0.15rem;
+  width: 0.7rem;   
+  border-radius: 50%;
+}
+section .streetInfo .contact span {
+  color: #333333;
+  font-size: 0.42rem;
+  white-space: normal;
+  word-break: break-all;
+  padding-right: 0.3rem;
+  vertical-align: middle;
+}
+section .streetInfo .contact .f-l {
+  width: 4.2rem;
+}
+section .streetInfo .contact .f-l img {
+  width: 0.7rem;
+  height: 0.7rem;
+  vertical-align: middle;
+  margin-right: 0.15rem;
+}
+section .streetInfo .contact .f-l span {
+  color: #333333;
+  font-size: 0.42rem;
+}
+section .streetInfo .contact .f-r img {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+}
+section .streetInfo .contact .f-r span {
+  color: #666666;
+  font-size: 0.42rem;
+  display: inline-block;
+  width: 136px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+section .btn {
+  clear: both;
+  text-align: center;
+  font-size: 0.34rem;
+ /* margin-bottom: 0.6rem;*/
+}
+section .btn .statistics {
+  background-color: #009000;
+  border: 0;
+  color: #fff;
+  border-radius: 0.5rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  margin-right: 0.6rem;
+}
+section .btn .directAccess {
+  background-color: #3699DC;
+  color: #fff;
+  border-radius: 0.5rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  border: 0;
+  margin-left: 0.6rem;
+}
+section .workPic {
+  max-width: 100%;
+  width: 10rem;
+  height: 5.625rem;
+  margin-bottom: 0.3rem;
+}
+section .contentDetail .contentHead {
+  height: 1rem;
+  line-height: 1rem;
+  padding-left: 0.3rem;
+  color: #333333;
+  font-size: 0.44rem;
+}
+section .contentDetail .contentHead .colorLump {
+  display: inline-block;
+  height: 0.3rem;
+  width: 0.2rem;
+  background: #009000;
+  vertical-align: middle;
+  margin-right: 0.1rem;
+}
+section .contentDetail .contentHead span {
+  font-size: 0.42rem;
+  padding-left: 0.3rem;
+}
+section .contentDetail .txtDetail {
+  text-align: justify;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  line-height: 0.8rem;
+  background: #FFFFFF;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  font-size: 0.42rem;
+  color: #333333;
+  white-space: normal;
+  word-break: break-all;
+}
+section .data {
+  background: #F2F2F2;
+  height: 16rem;
+}
+section .data .dataStatis {
+  width: 92%;
+  margin: 0 auto;
+}
+section .data .dataStatis .line {
+  position: relative;
+  top: 20px;
+  width: 104%;
+  left: -6px;
+  border-radius: 0.2rem;
+}
+section .data .dataStatis .dataBg {
+  max-width: 100%;
+  width: 674px;
+  height: 422px;
+  background: url(../image/home/dateBg.png);
+  -moz-background-size: 337px 211px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 0.299rem;
+  z-index: 10;
+}
+section .data .dataStatis .dataBg ul {
+  position: absolute;
+  top: 1rem;
+  margin-left: 0.4rem;
+}
+section .data .dataStatis .dataBg ul li {
+  margin-left: 0.6rem;
+  line-height: 0.9rem;
+  font-size: 0.42rem;
+}
+section .data .dataStatis .dataBg ul .dataName,
+section .data .dataStatis .dataBg ul .dataName1,
+section .data .dataStatis .dataBg ul .dataName2 {
+  margin-left: 0rem;
+}
+section .data .dataStatis .dataBg ul .dataName img,
+section .data .dataStatis .dataBg ul .dataName1 img,
+section .data .dataStatis .dataBg ul .dataName2 img {
+  width: 3%;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}
+section .data .dataStatis .dataBg ul .dataName span,
+section .data .dataStatis .dataBg ul .dataName1 span,
+section .data .dataStatis .dataBg ul .dataName2 span {
+  color: #FF6454;
+  font-size: 0.52rem;
+}
+section .data .dataStatis .dataBg ul .dataName1 span {
+  color: #29A1F9;
+  font-size: 0.52rem;
+}
+section .data .dataStatis .dataBg ul .dataName2 span {
+  color: #42C9CC;
+  font-size: 0.52rem;
+}
+.index-wrap1 .head span {
+    display: inline-block;
+    /*color: #333333;*/
+    color: #FFFFFF;
+    font-size: 0.42rem;
+    width: 8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+section .btn {
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+}
+section .btn {
+    clear: both;
+    text-align: center;
+    font-size: 0.34rem;
+    /* margin-bottom: 0.6rem; */
+}
