@@ -1,0 +1,461 @@
+.bg-w {
+  background: #fff;
+}
+.c-w {
+  color: #fff;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: top;
+}
+.va-m {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.c-r {
+  color: red;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  font-size: 0.4rem;
+  overflow-x: hidden;
+  background: #F2F2F2;
+  font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+button {
+  outline: 0 ;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+input[type=button],
+input[type=submit],
+input[type=file],
+input[type=text],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+#header .swiper-slide {
+  padding: 0 20px;
+  width: auto;
+}
+#banner {
+  width: 10rem;
+  height: 5.625rem;
+  /*margin-top: 43px;*/
+  position: relative;
+}
+#banner .swiper-slide {
+  position: relative;
+  text-align: center;
+}
+#banner img {
+  max-width: 100%;
+  width: 10rem;
+  height: 5.625rem;
+}
+#banner .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 21px;
+  width: 66px;
+  text-align: center;
+  right: 40%;
+  border-radius: 50%;
+}
+.title {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+body {
+ /* background: #fff;*/
+}
+#head img {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+#head .mask1 {
+  position: absolute;
+  top: 3%;
+  left: 24%;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: middle;
+    margin: 0 auto;
+    align-items: center;
+    width: 52%;
+}
+#head .mask1 span {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  line-height: 0.6rem;
+  font-size: 0.4rem;
+}
+#head .mask1 img {
+  width: 30%;
+  position: relative;
+  top: 9%;
+  left:35%;
+  border-radius: 50%;
+}
+#head .mask1 .myCenter {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  width: 50%;
+  margin-left:25%;
+  margin-top: 0.2rem;
+}
+#head .qdsm {
+  text-align: center;
+  position: relative;
+  top: -4.6rem;
+  left: 4rem;
+}
+#head .qdsm img {
+  width:6%;
+}
+#head .qdsm p {
+  font-size: 0.32rem;
+  color: #fff;
+}
+.title {
+  color: #000000;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  padding-left: 0.4rem;
+}
+#formFirst ul,
+#formSecond ul {
+  width: 94%;
+  margin: 0 auto;
+}
+#formFirst ul li,
+#formSecond ul li {
+  line-height: 1rem;
+}
+#formFirst ul li #btnsms,
+#formSecond ul li #btnsms {
+  margin-left: 0.2rem;
+  background: #ECC700;
+  color: #fff;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border-radius: 0.2rem;
+  font-size: 0.36rem;
+  border: 0;
+}
+#formFirst ul .btn,
+#formSecond ul .btn {
+  text-align: center;
+  margin: 0 auto;
+}
+#formFirst ul .btn button,
+#formSecond ul .btn button {
+  border: 0;
+  border-radius: 0.2rem;
+  background: #29a1f9;
+  color: #fff;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  font-size: 0.46rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+#formFirst label,
+#formSecond label {
+  color: #232323;
+}
+#formSecond {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+#main {
+  margin: 0 auto;
+  margin-top:-1rem;
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
+  padding-top: 0.2rem;
+}
+#main a {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 92%;
+  border: 1px solid #DADADA;
+  border-radius: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.2rem;
+  vertical-align: middle;
+}
+#main a p {
+  float: left;
+  margin-left: 0.3rem;
+  color: #4F4F4F;
+}
+#main a img:last-child {
+  float: right;
+  width: 0.3rem;
+  margin-top: 0.4rem;
+}
+#main a img:first-child {
+  float: left;
+  width: 0.7rem;
+  margin-top:0.4rem;
+}
+
+#main a .myJf i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #D8021C;
+  border-radius: 50%;
+  margin-left: 0.2rem;
+}
+.model1 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+}
+.model1 .modelBox {
+  width: 90%;
+  height: 60%;
+  background: #fff;
+  top: 20%;
+  left: 5%;
+  bottom: 0;
+  position: fixed;
+  border-radius: 30px;
+  text-align: center;
+}
+.model1 .modelBox .modelTxt {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.model1 .modelBox .modelTxt .close {
+  padding-left: 0.7rem;
+  padding-top: 0.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.model1 .modelBox .modelTxt h1 {
+  padding-top: 1.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.5rem;
+  color: #DA011D;
+}
+.model1 .modelBox .modelTxt .btn1 {
+  margin-top: 1rem;
+}
+.model1 .modelBox .modelTxt .btn1 button {
+  width: 2.6rem;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  border-radius: 0.3rem;
+  border: 0;
+  background: #29a1f9;
+  color: #fff;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.model1 .modelBox .modelTxt ul li {
+  border-bottom: 1px solid #F6F6F6;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  position: relative;
+  text-align: left;
+}
+.model1 .modelBox .modelTxt ul li #userName {
+  width: 75%;
+}
+.model1 .modelBox .modelTxt ul .userName {
+  border: 0;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+  font-size: 0.4rem;
+}
+.model1 .modelBox .modelTxt :focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+.model1 .modelBox .modelTxt ::-webkit-input-placeholder {
+  display: inline-block;
+  color: #CDCCD1;
+  text-align: left;
+}
+.model1 .modelBox .modelTxt :-moz-placeholder {
+  color: #CDCCD1;
+  text-align: left;
+}
+.model1 .modelBox .modelTxt ::-moz-placeholder {
+  color: #CDCCD1;
+  text-align: left;
+}
+.model1 .modelBox .modelTxt :-ms-input-placeholder {
+  color: #CDCCD1;
+  text-align: left;
+}
+.model1 .modelBox .modelTxt textarea[placeholder] {
+  color: #232323 !important;
+  text-align: left;
+}
+.model1 .modelBox .modelTxt input {
+  border: 0;
+}
+.model2 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100000;
+  display: none;
+}
+.model2 .modelBox {
+  width: 84%;
+  height: 6.3rem;
+  background: #fff;
+  top: 29.5%;
+  left: 8%;
+  bottom: 0;
+  position: fixed;
+  border-radius: 30px;
+  text-align: center;
+}
+.model2 .modelBox .modelTxt {
+  text-align: center;
+  position: relative;
+}
+.model2 .modelBox .modelTxt .close {
+  padding-left: 0.7rem;
+  padding-top: 0.7rem;
+  position: absolute;
+  right: 0.4rem;
+  width: 22%;
+  top: -1.6rem;
+}
+.model2 .modelBox .modelTxt .right {
+  display: inline-block;
+  width: 2rem;
+  padding-top: 2rem;
+}
+.model2 .modelBox .modelTxt h3 {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size:0.46rem;
+}
+.model2 .modelBox .modelTxt p {
+  line-height: 0.7rem;
+  color: #BDBDBD;
+  font-size: 0.4rem;
+}
+.model2 .modelBox .modelTxt .sure {
+  margin-left: 0.4rem;
+}
+.model2 .modelBox .modelTxt .cancle {
+  margin-right: 0.4rem;
+  
+}
+.model2 .modelBox .modelTxt .btn1 {
+  margin-top: 0.5rem;
+}
+.model2 .modelBox .modelTxt .btn1 button {
+  width: 3rem;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: #29a1f9;
+  color: #fff;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  margin-top: 0.5rem;
+}
+.model2 .modelBox .modelTxt .cancle {
+    background:#999999;
+  
+}

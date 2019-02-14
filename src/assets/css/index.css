@@ -1,0 +1,654 @@
+.bg-w {
+  background: #fff;
+}
+.c-w {
+  color: #fff;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: top;
+}
+.va-m {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.c-r {
+  color: red;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  font-size: 0.4rem;
+  overflow-x: hidden;
+  background: #F2F2F2;
+  font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+button {
+  outline: 0 ;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+input[type=button],
+input[type=submit],
+input[type=file],
+input[type=text],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+#header .swiper-slide {
+  padding: 0 20px;
+  width: auto;
+}
+#banner {
+  width: 10rem;
+  height: 5.625rem;
+  /*margin-top: 43px;*/
+  position: relative;
+}
+#banner .swiper-slide {
+  position: relative;
+  text-align: center;
+}
+#banner img {
+  max-width: 100%;
+  width: 10rem;
+  height: 5.625rem;
+}
+#banner .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 21px;
+  width: 66px;
+  text-align: center;
+  right: 40%;
+  border-radius: 50%;
+}
+.title {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+header img {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  background: #e6833a;
+}
+header h3 {
+  top: 0.4rem;
+  right: 0.5rem;
+  position: absolute;
+  color: #fff;
+}
+header #heat {
+  position: relative;
+  top: 7.8rem;
+  margin-top: -2.5rem;
+}
+header #heat img {
+  display: inline-block;
+  width: 16%;
+  height: 13%;
+  /*修改*/
+  bottom: 8.6rem;
+  left: 0.2rem;
+  position: relative;
+  padding: 0.5rem;
+}
+header #heat span {
+  display: inline-block;
+  width: 16%;
+  height: 15%;
+  /*修改*/
+  bottom: 8.7rem;
+  left: 0.6rem;
+  position: absolute;
+  color: #fff;
+}
+header .coords span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #FC0000;
+  position: absolute;
+}
+header .coords span:nth-child(1) {
+  top: 1.9rem;
+  left: 1.4rem;
+}
+header .coords span:nth-child(2) {
+  top: 2.6rem;
+  left: 2.6rem;
+}
+header .coords span:nth-child(3) {
+  top: 4.3rem;
+  left: 3.6rem;
+}
+header .coords span:nth-child(4) {
+  top: 3rem;
+  left: 4.2rem;
+}
+header .coords span:nth-child(5) {
+  top: 4.3rem;
+  left: 4.6rem;
+}
+header .coords span:nth-child(6) {
+  top: 5.4rem;
+  left: 4rem;
+}
+header .coords span:nth-child(7) {
+  top: 5.4rem;
+  left: 5.3rem;
+}
+header .coords span:nth-child(8) {
+  top: 5.4rem;
+  left: 6.8rem;
+}
+header .coords span:nth-child(9) {
+  top: 7rem;
+  left: 4.6rem;
+}
+header .coords span:nth-child(10) {
+  top: 6.8rem;
+  left: 8rem;
+}
+header .coords span:nth-child(11) {
+  top: 7.6rem;
+  left: 6rem;
+}
+header .coords span:nth-child(12) {
+  top: 8.1rem;
+  left: 3.5rem;
+}
+header .coords span:nth-child(13) {
+  top: 8.9rem;
+  left: 4.2rem;
+}
+.notice {
+  background: #fff;
+  padding: 0.2rem 0;
+}
+.notice #notice {
+  width: 255px;
+  height: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: -42px;
+  margin-left: 42px;
+  color: #000000;
+  font-size: 0.4rem;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.notice #notice li {
+  height: 30px;
+  text-indent: 15px;
+  font-size: 0.4rem;
+  line-height: 30px;
+  list-style: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notice #notice > li a {
+  color: #000;
+}
+.notice .headline {
+  width: 94%;
+  height: 1rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  background: #e5e5e5;
+  position: relative;
+  z-index: 10;
+  line-height: 0.5rem;
+}
+.notice .headline .djtt {
+  width: 1.5rem;
+  height: 1.22rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  vertical-align: middle;
+  padding-bottom: 0.2rem;
+}
+.notice .headline .djnotice {
+  width: 0.830304rem;
+  height: 0.489286rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  margin-top: 0.2007125rem;
+  vertical-align: top;
+}
+.notice .headline .txt {
+  font-size: 0.3rem;
+  width: 6rem;
+  text-decoration: none;
+  /*修改*/
+  top: 0.33rem;
+  height: 1rem;
+  overflow: hidden;
+}
+.notice .headline .txt #holder li {
+  overflow: hidden;
+  height: 0.5rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notice .headline .txt #holder li a {
+  color: #4F4F4F;
+  text-decoration: none;
+}
+.notice .headline #demo {
+  overflow: hidden;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-left: 0.3rem;
+  display: inline-block;
+  font-size: 0.4rem;
+}
+.newsMain {
+  background: #fff;
+  text-align: center;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.newsMain .nav {
+  font-size: 0rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.newsMain .nav a {
+  display: inline-block;
+  width: 25%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.4rem;
+  padding-bottom: 0.2rem;
+}
+.newsMain .nav a dt img {
+  width: 0.99rem;
+  height: 0.99rem;
+}
+.newsMain .nav a dd {
+  color: #979797;
+  margin-top: 0.1rem;
+}
+.newsMain .banner {
+  width: 94%;
+  border: 0;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 7px;
+}
+.newsMain .nav .item {
+  border-top: 0;
+}
+.newsMain .nav .cur dd span {
+  color: #DD001C;
+  font-weight: bold;
+  border-bottom: 2px solid #DD001C;
+}
+section {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+section .address {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 24%;
+}
+section .newsHead,
+section .chartHead {
+  background: #fff;
+  height: 1rem;
+  line-height: 1rem;
+  color: #A1D255;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  clear: both;
+}
+section .newsHead img,
+section .chartHead img {
+  vertical-align: middle;
+}
+section .newsHead .f-r,
+section .chartHead .f-r {
+  margin-right: 0.2rem;
+}
+section .newsHead a,
+section .chartHead a {
+  color: #A1D255;
+  text-decoration: none;
+}
+section .recomAct {
+  color: #c7595a;
+}
+section .recomAct a {
+  color: #c7595a;
+}
+section #act .list {
+  width: 94%;
+  background: #FFFFFF;
+  border-radius: 0.2rem;
+  margin: 0 auto;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+section .chartHead {
+  color: #F39800;
+}
+section .chartHead span {
+  color: #F39800;
+}
+section .content {
+  background: #F2F2F2;
+}
+
+section .chart ul li {
+  height: 40px;
+}
+section .activities {
+  width: 100%;
+  /*活动列表*/
+  /*活动列表*/
+  /*最新活动、预告活动、历史活动*/
+  /*活动标题*/
+}
+section .activities .activePic {
+  text-align: right;
+}
+section .activities .activePic img {
+  display: inline-block;
+  width: 4.3rem;
+  height: 3.225rem;
+  border-radius: 0.2rem;
+  position: relative;
+}
+section .activities .activePic .listIcon {
+  position: absolute;
+  top: 0rem;
+}
+section .activities .activePic .listIcon img {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0;
+}
+section .activities .activePic .listIcon .key {
+  width: 0.48rem;
+  height: 0.525rem;
+  border-radius: 0;
+  /* float: right; */
+  position: relative;
+  left: 2.7rem;
+  top: -0.55rem;
+}
+section .activities .activeDetail {
+  width: 42%;
+  /* position: relative; */
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 3%;
+}
+section .activities .activeDetail .activePic {
+  text-align: left;
+  width: 4.3rem;
+  height: 3.225rem;
+  position: relative;
+}
+section .activities .activeDetail .txt1 {
+  text-align: left;
+  float: left;
+}
+section .activities .activeDetail1 {
+  width: 42%;
+  /* position: relative; */
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 5%;
+}
+section .activities .activeDetail1 .activePic {
+  text-align: left;
+  width: 4.3rem;
+  height: 3.225rem;
+  position: relative;
+}
+section .activities .activeDetail1 .txt1 {
+  text-align: left;
+  float: left;
+}
+section .activities .txt1 h4 {
+  font-weight: normal;
+  font-size: 0.4rem;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #655f5f;
+  width: 4rem;
+  height: 0.56rem;
+}
+section .activities .txt1 h4 i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #D8021C;
+  border-radius: 50%;
+  margin-left: 0.1rem;
+  position: relative;
+  bottom: 1px;
+}
+section .activities .actIcon {
+  width: 0.3rem;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+}
+section .activities .actTitle {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  clear: both;
+}
+section .activities .actTitle .right1Arrows {
+  width: 0.23rem;
+  margin-right: 0.3rem;
+}
+section .activities .txt1 {
+  width: 4.5rem;
+  height: 1.8rem;
+  bottom: 1.4rem;
+  padding-left: 0.1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+}
+section .activities .txt1 p {
+  font-size: 0.34666667rem;
+  color: #999;
+  width: 4.5rem;
+  height: 0.44rem;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.txt {
+  color: #7D7D7D;
+  font-size: 0.34666667rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  margin-top: 0;
+  line-height: 0.6rem;
+}
+.listTexts {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  min-width: 0;
+}
+.listTexts .dot {
+  display: block;
+  position: absolute;
+  right: 21px;
+  bottom: 0.6rem;
+}
+.listTexts h1 {
+  font-weight: bold;
+  font-size: 0.4rem;
+  margin-top: 0.1rem;
+  /*修改*/
+  width: 4.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #000;
+}
+.listPics {
+  margin-right: 0.21333333rem;
+  width: 3.76rem;
+  text-align: center;
+}
+.listPics img {
+  width: 100%;
+  max-height: 100%;
+  height: 2.82rem;
+  vertical-align: top;
+  margin-top: 0.1rem;
+  border-radius: 0.2rem;
+}
+.textList {
+  border-top: 1px solid #ddd;
+  position: relative;
+  margin-top: 0.1rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+}
+.textList:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.textList h2 {
+  font-weight: 400;
+  font-size: 0.17rem;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.date {
+  font-size: 0.34666667rem;
+  color: #7D7D7D;
+}
+.content {
+ 
+  margin: 0 auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.content .item h3 {
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
+  max-height: 40px;
+  overflow: hidden;
+  line-height: 20px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+.content .item .date {
+  color: #7D7D7D;
+}
+.opacity {
+  -webkit-animation: opacity 0.3s linear;
+  animation: opacity 0.3s linear;
+}

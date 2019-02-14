@@ -1,0 +1,490 @@
+.bg-w {
+  background: #fff;
+}
+.c-w {
+  color: #fff;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: top;
+}
+.va-m {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.c-r {
+  color: red;
+}
+.main {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.23rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.logo {
+  width: 2.453rem;
+  height: 2.453rem;
+  line-height: 2.453rem;
+  border: 6px solid #F1F1F1;
+  margin: 0 auto;
+}
+.main h3 {
+  color: #98A862;
+  font-size: 0.18rem;
+  margin-top: 0.346rem;
+  margin-bottom: 0.346rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type="text"],
+input[type="number"] {
+  -webkit-appearance: none;
+}
+textarea {
+  -webkit-appearance: none;
+}
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 0.4rem;
+  background: #F2F2F2;
+  font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+button {
+  outline: 0 ;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+#header .swiper-slide {
+  padding: 0 20px;
+  width: auto;
+}
+#banner {
+  width: 10rem;
+  height: 5.625rem;
+  /*margin-top: 43px;*/
+  position: relative;
+}
+#banner .swiper-slide {
+  position: relative;
+  text-align: center;
+}
+#banner img {
+  max-width: 100%;
+  width: 10rem;
+  height: 5.625rem;
+}
+#banner .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 21px;
+  width: 66px;
+  text-align: center;
+  right: 40%;
+}
+
+body .head {
+     height: 1.5rem;
+    line-height: 1.5rem;
+    background-color: #ebbc00;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+.head img {
+  width: 8%;
+  vertical-align: middle;
+  margin-left: 0.2rem;
+  margin-top: 0.32rem;
+  float: left;
+}
+.head span {
+  color: #fff;
+  font-size: 0.46rem;
+}
+.newsMain {
+  background: #fff;
+  text-align: center;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+.newsMain .nav {
+  font-size: 0rem;
+  padding-top:1.8rem;
+  padding-bottom: 0.1rem;
+}
+.newsMain .nav a {
+  display: inline-block;
+  width: 20%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.4rem;
+}
+.newsMain .nav a dt img {
+  width: 0.99rem;
+  height: 0.99rem;
+}
+.newsMain .nav a dd {
+  color: #979797;
+  margin-top: -0.8rem;
+}
+.newsMain .banner {
+  width: 94%;
+  border: 0;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 7px;
+}
+.newsMain .nav .item {
+  border-top: 0;
+}
+.newsMain .nav .cur dd {
+  color: #3ace00;
+  font-weight: bold;
+}
+.newsMain .nav .cur dt {
+  height: 80px;
+  background: url(../image/myCenter/activation.png);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.newsMain .nav a dt {
+  height: 80px;
+  background: url(../image/myCenter/default.png);
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: -0.3rem;
+}
+.newsMain .nav a dt span {
+  position: relative;
+  top: 29px;
+  color: #fead00;
+  font-size: 0.46rem;
+}
+.newsMain .nav a dd {
+  color: #666666;
+  font-size: 0.46rem;
+}
+.newsMain .nav .cur dt span {
+  position: relative;
+  top: 29px;
+  color: #FFFFFF;
+  font-size: 0.46rem;
+}
+.register {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 0.3rem 0;
+  /*margin-top:77px;*/
+}
+.register button {
+  outline: 0;
+  margin-bottom: 0.3rem;
+  border: 0;
+  background: #ebbc00;
+  color: #ffffff;
+  height: 1.2rem;
+  width: 5rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+  border-radius: 0.3rem;
+}
+.register ul {
+  font-size: 0rem;
+  margin: 0 auto;
+}
+.register ul li {
+  display: inline-block;
+  font-size: 0.44rem;
+  text-align: right;
+  padding-right: 0.6rem;
+  color: #666666;
+}
+.register ul li span {
+  color: #fead00;
+}
+.register ul :first-child {
+  text-align: left;
+  padding-left: 0.6rem;
+}
+.act-rule {
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 0.3rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  width: 100%;
+}
+.act-rule div {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.44rem;
+}
+.act-rule div h3 {
+  color: #ebbc00;
+  padding-bottom: 0.1rem;
+}
+.act-rule div p {
+  color: #666666;
+  line-height: 0.65rem;
+}
+
+#formFirst ul,
+#formSecond ul {
+  width: 94%;
+  margin: 0 auto;
+}
+#formFirst ul li,
+#formSecond ul li {
+  line-height: 1.6rem;
+  border-bottom: 2px solid #ffffff;
+  color:#ffffff;
+  text-align:left;
+}
+#formFirst ul li #btnsms,
+#formSecond ul li #btnsms {
+  margin-left: 0.2rem;
+  background:transparent;
+  color:red;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border-radius: 0.2rem;
+  font-size: 0.36rem;
+  border: 0;
+}
+#formFirst ul .btn,
+#formSecond ul .btn {
+  text-align: center;
+  margin: 0 auto;
+  border: 0;
+}
+#formFirst ul .btn button,
+#formSecond ul .btn button {
+  border: 0;
+  border-radius: 0.2rem;
+  background: #E3C225;
+  color: #fff;
+  height:1rem;
+  line-height: 0.8rem;
+  width: 6rem;
+  font-size: 0.4rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+#formFirst label,
+#formSecond label {
+  color: #ffffff;
+  width: 1.6rem;
+  display: inline-block;
+}
+#formSecond {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+#main {
+  margin: 0 auto;
+  margin-top:-1rem;
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
+  padding-top: 0.2rem;
+}
+#main a {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 92%;
+  border: 1px solid #DADADA;
+  border-radius: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.2rem;
+  vertical-align: middle;
+}
+#main a p {
+  float: left;
+  margin-left: 0.3rem;
+  color: #4F4F4F;
+}
+#main a img:last-child {
+  float: right;
+  width: 0.3rem;
+  margin-top: 0.4rem;
+}
+#main a img:first-child {
+  float: left;
+  width: 0.7rem;
+  margin-top:0.4rem;
+}
+
+#main a .myJf i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #D8021C;
+  border-radius: 50%;
+  margin-left: 0.2rem;
+}
+
+.model2 {
+  width: 100%;
+  height: 100%;
+  background:url(../image/bg.png);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index:100000;
+  /*display:none;*/
+ 
+}
+.model2 .modelBox {
+ /* width: 84%;
+  height: 6.3rem;*/
+  
+  top:19.5%;
+  left:9%;
+  bottom: 0;
+  position: fixed;
+  border-radius: 30px;
+  text-align: center;
+}
+.model2 .modelBox .modelTxt {
+  text-align: center;
+  position: relative;
+}
+.model2 .modelBox .modelTxt .close {
+  padding-left: 0.7rem;
+  padding-top: 0.7rem;
+  position: absolute;
+  right: 0.4rem;
+  width: 22%;
+  top: -1.6rem;
+}
+.model2 .modelBox .modelTxt .right {
+  display: inline-block;
+  width: 2rem;
+  padding-top: 2rem;
+}
+.model2 .modelBox .modelTxt h3 {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size:0.46rem;
+}
+.model2 .modelBox .modelTxt p {
+  line-height: 0.7rem;
+  color: #BDBDBD;
+  font-size: 0.4rem;
+}
+.model2 .modelBox .modelTxt .sure {
+  margin-left: 0.4rem;
+}
+.model2 .modelBox .modelTxt .cancle {
+  margin-right: 0.4rem;
+}
+.model2 .modelBox .modelTxt .btn1 {
+  margin-top: 0.5rem;
+}
+.model2 .modelBox .modelTxt .btn1 button {
+  width: 3rem;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: #29a1f9;
+  color: #fff;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+#formFirst ul .btn .cancle, #formSecond ul .btn .cancle{
+   background:#999999;
+}
+.model2 .title {
+    color: #000000;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    padding-left: 0.4rem;
+}
+.code{
+    text-align:center;display:inline-block;margin-top:0.6rem;padding-right:0.2rem;
+    }
+
